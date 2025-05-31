@@ -21,10 +21,6 @@ En el caso usaríamos librerías ya creadas para facilitarnos el desarollo del p
 | `threading` / `asyncio` | Para mejorar el rendimiento en tiempo real al procesar video.                        |
 
 
-### Idea general:
-Harémos una conexión en tiempo real con IA en tiempo real con una cámara, y a través de opencv podríamos detectar las caras mientras a la vez usar mediapipe para detectar las emociones y en pantalla añadir videos relacionados sobre el estado de animo. Al tener movimiento añadiriamos videos en bucle por el movimiento, emociones, y incluso temperatura por infrarojos para añadir mas realismo sin tener que ser una IA muy pesada, con simples parametros faciles podríamos usar PyTorch para adecuar el comportamiento sobre las repuestas fáciles de generar.
-
-
 ### Idea General
 La idea es realizar una conexión en tiempo real con una cámara, usando OpenCV para detectar rostros y movimiento, y MediaPipe para inferir emociones o posturas. Basado en esa información, se mostrarán en pantalla clips de video que representen comportamientos realistas, como si la figura en pantalla estuviera reaccionando al usuario.
 
