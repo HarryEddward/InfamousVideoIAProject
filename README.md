@@ -19,3 +19,25 @@ En el caso usaríamos librerías ya creadas para facilitarnos el desarollo del p
 | `torch` o `tensorflow`  | Para aplicar modelos de IA si decides entrenar algo más complejo.                    |
 | `pygame` o `tkinter`    | Si quieres mostrar el video procesado en una interfaz personalizada.                 |
 | `threading` / `asyncio` | Para mejorar el rendimiento en tiempo real al procesar video.                        |
+
+
+### Idea general:
+Harémos una conexión en tiempo real con IA en tiempo real con una cámara, y a través de opencv podríamos detectar las caras mientras a la vez usar mediapipe para detectar las emociones y en pantalla añadir videos relacionados sobre el estado de animo. Al tener movimiento añadiriamos videos en bucle por el movimiento, emociones, y incluso temperatura por infrarojos para añadir mas realismo sin tener que ser una IA muy pesada, con simples parametros faciles podríamos usar PyTorch para adecuar el comportamiento sobre las repuestas fáciles de generar.
+
+
+### Idea General
+La idea es realizar una conexión en tiempo real con una cámara, usando OpenCV para detectar rostros y movimiento, y MediaPipe para inferir emociones o posturas. Basado en esa información, se mostrarán en pantalla clips de video que representen comportamientos realistas, como si la figura en pantalla estuviera reaccionando al usuario.
+
+Algunos puntos clave:
+
+- Seguimiento facial para simular contacto visual.
+
+- Análisis emocional para cambiar expresiones o comportamientos de la IA.
+
+- Videos en bucle pre-renderizados que simulan respuestas humanas.
+
+- Simulación de infrarrojos para agregar un toque más técnico sin sensores físicos.
+
+- Bajo consumo de recursos, ideal para ejecutarse sin GPU dedicada, usando IA pre-entrenada y lógica condicional simple.
+
+- Posible integración de PyTorch para comportamientos más avanzados con modelos ligeros si se requiere.
