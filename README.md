@@ -7,6 +7,7 @@ Al usar IA, Python tiene una comunidad basta para completarse muchas de las func
 
 En el caso usaríamos librerías ya creadas para facilitarnos el desarollo del proyecto sin tanta inversión de tiempo con librerías ya hechas.
 
+## Librerías de Python:
 
 | Librería                | Descripción                                                                          |
 | ----------------------- | ------------------------------------------------------------------------------------ |
