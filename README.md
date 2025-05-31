@@ -2,6 +2,12 @@
 
 Este proyecto busca simular una inteligencia artificial que observa a las personas en tiempo real a través un video en pantalla, generando la ilusión de que la "persona dentro del video" te está mirando directamente, como si fuera real.
 
+## Especificaciones del proyecto
+Al usar IA, Python tiene una comunidad basta para completarse muchas de las funciones sin tanto boilerplate y de forma senzilla al enfocarse como lenguaje de programación a la IA.
+
+En el caso usaríamos librerías ya creadas para facilitarnos el desarollo del proyecto sin tanta inversión de tiempo con librerías ya hechas.
+
+
 | Librería                | Descripción                                                                          |
 | ----------------------- | ------------------------------------------------------------------------------------ |
 | `opencv-python`         | Procesamiento de imágenes y detección de objetos/personas.                           |
