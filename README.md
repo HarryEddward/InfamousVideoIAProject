@@ -1,2 +1,14 @@
-# InfamousVideoIAProject
-Detección y Seguimiento de Personas por Video con IA
+# Detección y Seguimiento de Personas por Video con IA
+
+Este proyecto busca simular una inteligencia artificial que observa a las personas en tiempo real a través un video en pantalla, generando la ilusión de que la "persona dentro del video" te está mirando directamente, como si fuera real.
+
+| Librería                | Descripción                                                                          |
+| ----------------------- | ------------------------------------------------------------------------------------ |
+| `opencv-python`         | Procesamiento de imágenes y detección de objetos/personas.                           |
+| `numpy`                 | Manipulación de arrays y procesamiento numérico (útil para imágenes).                |
+| `imutils`               | Funciones útiles para trabajar con OpenCV (redimensionar, dibujar, etc.).            |
+| `mediapipe`             | Detección precisa de poses humanas, manos y rostros. Útil para seguimiento avanzado. |
+| `dlib`                  | Detección y seguimiento facial más precisa (requiere CMake).                         |
+| `torch` o `tensorflow`  | Para aplicar modelos de IA si decides entrenar algo más complejo.                    |
+| `pygame` o `tkinter`    | Si quieres mostrar el video procesado en una interfaz personalizada.                 |
+| `threading` / `asyncio` | Para mejorar el rendimiento en tiempo real al procesar video.                        |
